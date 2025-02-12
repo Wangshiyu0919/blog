@@ -42,7 +42,7 @@ jobs:
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
         env:
-          GITHUB_TOKENS: ${{ secrets.ACCESS_TOKENS }}
+          GITHUB_TOKENS: ${{ secrets.ACCESS_TOKEN }}
         with:
           # 这是文档部署到的分支名称
           branch: master
