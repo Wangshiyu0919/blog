@@ -45,5 +45,5 @@ jobs:
           GITHUB_TOKENS: ${{ secrets.ACCESS_TOKENS }}
         with:
           # 这是文档部署到的分支名称
-          branch: blog_pages
+          branch: master
           folder: docs/.vuepress/dist
